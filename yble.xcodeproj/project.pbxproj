@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43008B631AB936B60098854C /* yble.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43008B621AB936B60098854C /* yble.h */; };
+		43008B651AB936B60098854C /* yble.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008B641AB936B60098854C /* yble.m */; };
+		43008B6B1AB936B60098854C /* libyble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43008B5F1AB936B60098854C /* libyble.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43008B6C1AB936B60098854C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43008B571AB936B60098854C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43008B5E1AB936B60098854C;
+			remoteInfo = yble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43008B5D1AB936B60098854C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				43008B631AB936B60098854C /* yble.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43008B5F1AB936B60098854C /* libyble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libyble.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43008B621AB936B60098854C /* yble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yble.h; sourceTree = "<group>"; };
+		43008B641AB936B60098854C /* yble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yble.m; sourceTree = "<group>"; };
+		43008B6A1AB936B60098854C /* ybleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ybleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43008B701AB936B60098854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43008B5C1AB936B60098854C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43008B671AB936B60098854C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43008B6B1AB936B60098854C /* libyble.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43008B561AB936B60098854C = {
+			isa = PBXGroup;
+			children = (
+				43008B611AB936B60098854C /* yble */,
+				43008B6E1AB936B60098854C /* ybleTests */,
+				43008B601AB936B60098854C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43008B601AB936B60098854C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43008B5F1AB936B60098854C /* libyble.a */,
+				43008B6A1AB936B60098854C /* ybleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43008B611AB936B60098854C /* yble */ = {
+			isa = PBXGroup;
+			children = (
+				43008B621AB936B60098854C /* yble.h */,
+				43008B641AB936B60098854C /* yble.m */,
+			);
+			path = yble;
+			sourceTree = "<group>";
+		};
+		43008B6E1AB936B60098854C /* ybleTests */ = {
+			isa = PBXGroup;
+			children = (
+				43008B6F1AB936B60098854C /* Supporting Files */,
+			);
+			path = ybleTests;
+			sourceTree = "<group>";
+		};
+		43008B6F1AB936B60098854C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43008B701AB936B60098854C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43008B5E1AB936B60098854C /* yble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43008B731AB936B60098854C /* Build configuration list for PBXNativeTarget "yble" */;
+			buildPhases = (
+				43008B5B1AB936B60098854C /* Sources */,
+				43008B5C1AB936B60098854C /* Frameworks */,
+				43008B5D1AB936B60098854C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yble;
+			productName = yble;
+			productReference = 43008B5F1AB936B60098854C /* libyble.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43008B691AB936B60098854C /* ybleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43008B761AB936B60098854C /* Build configuration list for PBXNativeTarget "ybleTests" */;
+			buildPhases = (
+				43008B661AB936B60098854C /* Sources */,
+				43008B671AB936B60098854C /* Frameworks */,
+				43008B681AB936B60098854C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43008B6D1AB936B60098854C /* PBXTargetDependency */,
+			);
+			name = ybleTests;
+			productName = ybleTests;
+			productReference = 43008B6A1AB936B60098854C /* ybleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43008B571AB936B60098854C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Yang.me;
+				TargetAttributes = {
+					43008B5E1AB936B60098854C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					43008B691AB936B60098854C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 43008B5A1AB936B60098854C /* Build configuration list for PBXProject "yble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43008B561AB936B60098854C;
+			productRefGroup = 43008B601AB936B60098854C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43008B5E1AB936B60098854C /* yble */,
+				43008B691AB936B60098854C /* ybleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43008B681AB936B60098854C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43008B5B1AB936B60098854C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43008B651AB936B60098854C /* yble.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43008B661AB936B60098854C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43008B6D1AB936B60098854C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43008B5E1AB936B60098854C /* yble */;
+			targetProxy = 43008B6C1AB936B60098854C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43008B711AB936B60098854C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43008B721AB936B60098854C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43008B741AB936B60098854C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		43008B751AB936B60098854C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		43008B771AB936B60098854C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ybleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43008B781AB936B60098854C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ybleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43008B5A1AB936B60098854C /* Build configuration list for PBXProject "yble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43008B711AB936B60098854C /* Debug */,
+				43008B721AB936B60098854C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43008B731AB936B60098854C /* Build configuration list for PBXNativeTarget "yble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43008B741AB936B60098854C /* Debug */,
+				43008B751AB936B60098854C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43008B761AB936B60098854C /* Build configuration list for PBXNativeTarget "ybleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43008B771AB936B60098854C /* Debug */,
+				43008B781AB936B60098854C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43008B571AB936B60098854C /* Project object */;
+}
