@@ -9,11 +9,28 @@
 /* Begin PBXBuildFile section */
 		43008B631AB936B60098854C /* yble.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43008B621AB936B60098854C /* yble.h */; };
 		43008B651AB936B60098854C /* yble.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008B641AB936B60098854C /* yble.m */; };
-		43008B6B1AB936B60098854C /* libyble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43008B5F1AB936B60098854C /* libyble.a */; };
+		43008B821AB936D40098854C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008B811AB936D40098854C /* main.m */; };
+		43008B851AB936D40098854C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008B841AB936D40098854C /* AppDelegate.m */; };
+		43008B8B1AB936D40098854C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43008B891AB936D40098854C /* Main.storyboard */; };
+		43008B8D1AB936D40098854C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43008B8C1AB936D40098854C /* Images.xcassets */; };
+		43008B901AB936D40098854C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43008B8E1AB936D40098854C /* LaunchScreen.xib */; };
+		43008BA71AB950450098854C /* YBlePeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008BA61AB950450098854C /* YBlePeripheral.m */; };
+		43008BAA1AB991900098854C /* libyble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43008B5F1AB936B60098854C /* libyble.a */; };
+		43008BAF1AB99F090098854C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008BAE1AB99F090098854C /* MainViewController.m */; };
+		43008BB21AB9A5380098854C /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008BB11AB9A5380098854C /* ConnectViewController.m */; };
+		43B83D221AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D211AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.m */; };
+		43B83D2A1ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D291ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.m */; };
+		43B83D351ABA8DF700AF9B6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D341ABA8DF700AF9B6A /* AppDelegate.m */; };
+		43B83D371ABA8DF700AF9B6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D361ABA8DF700AF9B6A /* main.m */; };
+		43B83D3A1ABA8DF700AF9B6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D391ABA8DF700AF9B6A /* ViewController.m */; };
+		43B83D3C1ABA8DF700AF9B6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B83D3B1ABA8DF700AF9B6A /* Images.xcassets */; };
+		43B83D3F1ABA8DF700AF9B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B83D3D1ABA8DF700AF9B6A /* Main.storyboard */; };
+		43B83D531ABA9D2F00AF9B6A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B83D521ABA9D2F00AF9B6A /* CoreBluetooth.framework */; };
+		43B83D561ABAA7DD00AF9B6A /* CharacteristicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D551ABAA7DD00AF9B6A /* CharacteristicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		43008B6C1AB936B60098854C /* PBXContainerItemProxy */ = {
+		43008BAB1AB9919E0098854C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 43008B571AB936B60098854C /* Project object */;
 			proxyType = 1;
@@ -39,8 +56,39 @@
 		43008B5F1AB936B60098854C /* libyble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libyble.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		43008B621AB936B60098854C /* yble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yble.h; sourceTree = "<group>"; };
 		43008B641AB936B60098854C /* yble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yble.m; sourceTree = "<group>"; };
-		43008B6A1AB936B60098854C /* ybleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ybleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43008B701AB936B60098854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43008B7D1AB936D40098854C /* ybledemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ybledemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43008B801AB936D40098854C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43008B811AB936D40098854C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43008B831AB936D40098854C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43008B841AB936D40098854C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43008B8A1AB936D40098854C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43008B8C1AB936D40098854C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43008B8F1AB936D40098854C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43008BA31AB94B7E0098854C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		43008BA51AB950450098854C /* YBlePeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBlePeripheral.h; sourceTree = "<group>"; };
+		43008BA61AB950450098854C /* YBlePeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBlePeripheral.m; sourceTree = "<group>"; };
+		43008BA81AB984EC0098854C /* yble_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yble_internal.h; sourceTree = "<group>"; };
+		43008BA91AB98AFF0098854C /* YBlePeripheralInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBlePeripheralInternal.h; sourceTree = "<group>"; };
+		43008BAD1AB99F090098854C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		43008BAE1AB99F090098854C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		43008BB01AB9A5380098854C /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		43008BB11AB9A5380098854C /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		43B83D201AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FifoQueue.h"; sourceTree = "<group>"; };
+		43B83D211AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FifoQueue.m"; sourceTree = "<group>"; };
+		43B83D281ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FifoQueue.h"; sourceTree = "<group>"; };
+		43B83D291ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FifoQueue.m"; sourceTree = "<group>"; };
+		43B83D2F1ABA8DF700AF9B6A /* macdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B83D321ABA8DF700AF9B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B83D331ABA8DF700AF9B6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43B83D341ABA8DF700AF9B6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43B83D361ABA8DF700AF9B6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43B83D381ABA8DF700AF9B6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43B83D391ABA8DF700AF9B6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43B83D3B1ABA8DF700AF9B6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43B83D3E1ABA8DF700AF9B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43B83D521ABA9D2F00AF9B6A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		43B83D541ABAA7DD00AF9B6A /* CharacteristicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacteristicViewController.h; sourceTree = "<group>"; };
+		43B83D551ABAA7DD00AF9B6A /* CharacteristicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacteristicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,11 +99,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43008B671AB936B60098854C /* Frameworks */ = {
+		43008B7A1AB936D40098854C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43008B6B1AB936B60098854C /* libyble.a in Frameworks */,
+				43008BAA1AB991900098854C /* libyble.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B83D2C1ABA8DF700AF9B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B83D531ABA9D2F00AF9B6A /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				43008B611AB936B60098854C /* yble */,
-				43008B6E1AB936B60098854C /* ybleTests */,
+				43008B7E1AB936D40098854C /* ybledemo */,
+				43B83D301ABA8DF700AF9B6A /* macdemo */,
 				43008B601AB936B60098854C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				43008B5F1AB936B60098854C /* libyble.a */,
-				43008B6A1AB936B60098854C /* ybleTests.xctest */,
+				43008B7D1AB936D40098854C /* ybledemo.app */,
+				43B83D2F1ABA8DF700AF9B6A /* macdemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,24 +141,69 @@
 		43008B611AB936B60098854C /* yble */ = {
 			isa = PBXGroup;
 			children = (
+				43B83D521ABA9D2F00AF9B6A /* CoreBluetooth.framework */,
 				43008B621AB936B60098854C /* yble.h */,
 				43008B641AB936B60098854C /* yble.m */,
+				43008BA81AB984EC0098854C /* yble_internal.h */,
+				43008BA51AB950450098854C /* YBlePeripheral.h */,
+				43008BA61AB950450098854C /* YBlePeripheral.m */,
+				43008BA91AB98AFF0098854C /* YBlePeripheralInternal.h */,
+				43B83D201AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.h */,
+				43B83D211AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.m */,
+				43B83D281ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.h */,
+				43B83D291ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.m */,
 			);
 			path = yble;
 			sourceTree = "<group>";
 		};
-		43008B6E1AB936B60098854C /* ybleTests */ = {
+		43008B7E1AB936D40098854C /* ybledemo */ = {
 			isa = PBXGroup;
 			children = (
-				43008B6F1AB936B60098854C /* Supporting Files */,
+				43008B831AB936D40098854C /* AppDelegate.h */,
+				43008B841AB936D40098854C /* AppDelegate.m */,
+				43008BAD1AB99F090098854C /* MainViewController.h */,
+				43008BAE1AB99F090098854C /* MainViewController.m */,
+				43008BB01AB9A5380098854C /* ConnectViewController.h */,
+				43008BB11AB9A5380098854C /* ConnectViewController.m */,
+				43B83D541ABAA7DD00AF9B6A /* CharacteristicViewController.h */,
+				43B83D551ABAA7DD00AF9B6A /* CharacteristicViewController.m */,
+				43008B891AB936D40098854C /* Main.storyboard */,
+				43008B8C1AB936D40098854C /* Images.xcassets */,
+				43008B8E1AB936D40098854C /* LaunchScreen.xib */,
+				43008B7F1AB936D40098854C /* Supporting Files */,
 			);
-			path = ybleTests;
+			path = ybledemo;
 			sourceTree = "<group>";
 		};
-		43008B6F1AB936B60098854C /* Supporting Files */ = {
+		43008B7F1AB936D40098854C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				43008B701AB936B60098854C /* Info.plist */,
+				43008B801AB936D40098854C /* Info.plist */,
+				43008B811AB936D40098854C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43B83D301ABA8DF700AF9B6A /* macdemo */ = {
+			isa = PBXGroup;
+			children = (
+				43008BA31AB94B7E0098854C /* CoreBluetooth.framework */,
+				43B83D331ABA8DF700AF9B6A /* AppDelegate.h */,
+				43B83D341ABA8DF700AF9B6A /* AppDelegate.m */,
+				43B83D381ABA8DF700AF9B6A /* ViewController.h */,
+				43B83D391ABA8DF700AF9B6A /* ViewController.m */,
+				43B83D3B1ABA8DF700AF9B6A /* Images.xcassets */,
+				43B83D3D1ABA8DF700AF9B6A /* Main.storyboard */,
+				43B83D311ABA8DF700AF9B6A /* Supporting Files */,
+			);
+			path = macdemo;
+			sourceTree = "<group>";
+		};
+		43B83D311ABA8DF700AF9B6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B83D321ABA8DF700AF9B6A /* Info.plist */,
+				43B83D361ABA8DF700AF9B6A /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,23 +228,40 @@
 			productReference = 43008B5F1AB936B60098854C /* libyble.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		43008B691AB936B60098854C /* ybleTests */ = {
+		43008B7C1AB936D40098854C /* ybledemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43008B761AB936B60098854C /* Build configuration list for PBXNativeTarget "ybleTests" */;
+			buildConfigurationList = 43008B9D1AB936D40098854C /* Build configuration list for PBXNativeTarget "ybledemo" */;
 			buildPhases = (
-				43008B661AB936B60098854C /* Sources */,
-				43008B671AB936B60098854C /* Frameworks */,
-				43008B681AB936B60098854C /* Resources */,
+				43008B791AB936D40098854C /* Sources */,
+				43008B7A1AB936D40098854C /* Frameworks */,
+				43008B7B1AB936D40098854C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43008B6D1AB936B60098854C /* PBXTargetDependency */,
+				43008BAC1AB9919E0098854C /* PBXTargetDependency */,
 			);
-			name = ybleTests;
-			productName = ybleTests;
-			productReference = 43008B6A1AB936B60098854C /* ybleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = ybledemo;
+			productName = ybledemo;
+			productReference = 43008B7D1AB936D40098854C /* ybledemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43B83D2E1ABA8DF700AF9B6A /* macdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B83D4C1ABA8DF700AF9B6A /* Build configuration list for PBXNativeTarget "macdemo" */;
+			buildPhases = (
+				43B83D2B1ABA8DF700AF9B6A /* Sources */,
+				43B83D2C1ABA8DF700AF9B6A /* Frameworks */,
+				43B83D2D1ABA8DF700AF9B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macdemo;
+			productName = macdemo;
+			productReference = 43B83D2F1ABA8DF700AF9B6A /* macdemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -155,7 +275,11 @@
 					43008B5E1AB936B60098854C = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					43008B691AB936B60098854C = {
+					43008B7C1AB936D40098854C = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = AEH5MP723G;
+					};
+					43B83D2E1ABA8DF700AF9B6A = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -166,6 +290,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 43008B561AB936B60098854C;
 			productRefGroup = 43008B601AB936B60098854C /* Products */;
@@ -173,16 +298,29 @@
 			projectRoot = "";
 			targets = (
 				43008B5E1AB936B60098854C /* yble */,
-				43008B691AB936B60098854C /* ybleTests */,
+				43008B7C1AB936D40098854C /* ybledemo */,
+				43B83D2E1ABA8DF700AF9B6A /* macdemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43008B681AB936B60098854C /* Resources */ = {
+		43008B7B1AB936D40098854C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43008B8B1AB936D40098854C /* Main.storyboard in Resources */,
+				43008B901AB936D40098854C /* LaunchScreen.xib in Resources */,
+				43008B8D1AB936D40098854C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B83D2D1ABA8DF700AF9B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B83D3C1ABA8DF700AF9B6A /* Images.xcassets in Resources */,
+				43B83D3F1ABA8DF700AF9B6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,25 +332,70 @@
 			buildActionMask = 2147483647;
 			files = (
 				43008B651AB936B60098854C /* yble.m in Sources */,
+				43B83D221AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.m in Sources */,
+				43008BA71AB950450098854C /* YBlePeripheral.m in Sources */,
+				43B83D2A1ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43008B661AB936B60098854C /* Sources */ = {
+		43008B791AB936D40098854C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43008B851AB936D40098854C /* AppDelegate.m in Sources */,
+				43008BAF1AB99F090098854C /* MainViewController.m in Sources */,
+				43B83D561ABAA7DD00AF9B6A /* CharacteristicViewController.m in Sources */,
+				43008B821AB936D40098854C /* main.m in Sources */,
+				43008BB21AB9A5380098854C /* ConnectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B83D2B1ABA8DF700AF9B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B83D3A1ABA8DF700AF9B6A /* ViewController.m in Sources */,
+				43B83D371ABA8DF700AF9B6A /* main.m in Sources */,
+				43B83D351ABA8DF700AF9B6A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43008B6D1AB936B60098854C /* PBXTargetDependency */ = {
+		43008BAC1AB9919E0098854C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 43008B5E1AB936B60098854C /* yble */;
-			targetProxy = 43008B6C1AB936B60098854C /* PBXContainerItemProxy */;
+			targetProxy = 43008BAB1AB9919E0098854C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43008B891AB936D40098854C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43008B8A1AB936D40098854C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43008B8E1AB936D40098854C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43008B8F1AB936D40098854C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		43B83D3D1ABA8DF700AF9B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B83D3E1ABA8DF700AF9B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		43008B711AB936B60098854C /* Debug */ = {
@@ -307,33 +490,82 @@
 			};
 			name = Release;
 		};
-		43008B771AB936B60098854C /* Debug */ = {
+		43008B9E1AB936D40098854C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ybleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = ybledemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		43008B781AB936B60098854C /* Release */ = {
+		43008B9F1AB936D40098854C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ybledemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		43B83D4D1ABA8DF700AF9B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ybleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = macdemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43B83D4E1ABA8DF700AF9B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = macdemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -356,12 +588,22 @@
 				43008B751AB936B60098854C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		43008B761AB936B60098854C /* Build configuration list for PBXNativeTarget "ybleTests" */ = {
+		43008B9D1AB936D40098854C /* Build configuration list for PBXNativeTarget "ybledemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43008B771AB936B60098854C /* Debug */,
-				43008B781AB936B60098854C /* Release */,
+				43008B9E1AB936D40098854C /* Debug */,
+				43008B9F1AB936D40098854C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B83D4C1ABA8DF700AF9B6A /* Build configuration list for PBXNativeTarget "macdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B83D4D1ABA8DF700AF9B6A /* Debug */,
+				43B83D4E1ABA8DF700AF9B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
