@@ -215,7 +215,7 @@
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"UUID:%@", self.uuid.UUIDString];
+    return [NSString stringWithFormat:@"%@(%@)", self.name, self.uuid.UUIDString];
 }
 
 #pragma mark - Helper
