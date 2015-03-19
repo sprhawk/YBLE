@@ -26,15 +26,15 @@ typedef void(^ScanResultCallback)(YBlePeripheral *peripheral);
 
 @interface YBleCentral : NSObject
 @property (assign, readonly) YBleState state;
-@property (copy) CentralStateUpdateBlock stateUpdateBlock;
 @property (assign, readonly) BOOL isScanning;
 @property (strong, readonly) NSDictionary *scanOptions;
+@property (copy) CentralStateUpdateBlock stateUpdateBlock;
 
 // central manager uses its own queue, and user should specify a callback queue.
 // if callback queue is nil, central will dispatch callback to its own queue.
-- (instancetype)initWithRestoreIdentifier:(NSString *)identifier;
-- (instancetype)initInMainQueueWithRestoreIdentifier:(NSString *)identifier;
-- (instancetype)initInCallbackQueue:(dispatch_queue_t)queue withRestoreIdentifier:(NSString *)identifier;
+- (instancetype)initWithStateCallback:(CentralStateUpdateBlock)block restoreIdentifier:(NSString *)identifier;
+- (instancetype)initInMainQueueWithStateCallback:(CentralStateUpdateBlock)block restoreIdentifier:(NSString *)identifier;
+- (instancetype)initInCallbackQueue:(dispatch_queue_t)queue withStateCallback:(CentralStateUpdateBlock)block restoreIdentifier:(NSString *)identifier;
 
 - (void)scanForServices:(NSArray *)services options:(NSDictionary *)options callback:(ScanResultCallback)block;
 - (void)stopScan;

@@ -31,36 +31,41 @@
 
 @implementation YBleCentral
 @synthesize state = _state;
+
+// disable init
 - (instancetype)init
 {
-    self = [self initWithRestoreIdentifier:nil];
+    self = nil;
     return self;
 }
 
-- (instancetype)initWithRestoreIdentifier:(NSString *)identifier
+- (instancetype)initWithStateCallback:(CentralStateUpdateBlock)block restoreIdentifier:(NSString *)identifier
 {
-    self = [self initInCallbackQueue:nil withRestoreIdentifier:identifier];
+    self = [self initInCallbackQueue:nil withStateCallback:block restoreIdentifier:identifier];
     return self;
 }
 
-- (instancetype)initInMainQueueWithRestoreIdentifier:(NSString *)identifier
+- (instancetype)initInMainQueueWithStateCallback:(CentralStateUpdateBlock)block restoreIdentifier:(NSString *)identifier
 {
     self = [self initInCallbackQueue:dispatch_get_main_queue()
-               withRestoreIdentifier:identifier];
+                   withStateCallback:block
+                   restoreIdentifier:identifier];
     return self;
 }
 
-- (instancetype)initInCallbackQueue:(dispatch_queue_t)queue withRestoreIdentifier:(NSString *)identifier
+- (instancetype)initInCallbackQueue:(dispatch_queue_t)queue withStateCallback:(CentralStateUpdateBlock)block restoreIdentifier:(NSString *)identifier
 {
     self = [super init];
     if (self) {
         self.managedPeripherals = [NSMutableDictionary dictionary];
         self.callbackQueue = queue;
         self.centralQueue = dispatch_queue_create("yble_central_queue", NULL);
+        self.stateUpdateBlock = block;
+        
         if ([CBCentralManager instancesRespondToSelector:@selector(initWithDelegate:queue:options:)] ) {
             NSDictionary *options = nil;
             if (identifier) {
-                options = @{CBCentralManagerOptionRestoreIdentifierKey: @"YBleCentral"};
+                options = @{CBCentralManagerOptionRestoreIdentifierKey: identifier};
             }
             self.centralManager = [[CBCentralManager alloc] initWithDelegate:self
                                                                        queue:self.centralQueue
