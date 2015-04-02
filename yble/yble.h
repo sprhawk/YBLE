@@ -26,6 +26,7 @@ typedef void(^ScanResultCallback)(YBlePeripheral *peripheral);
 
 @interface YBleCentral : NSObject
 @property (assign, readonly) YBleState state;
+@property (assign, readonly) BOOL isAvailable;
 @property (assign, readonly) BOOL isScanning;
 @property (strong, readonly) NSDictionary *scanOptions;
 @property (copy) CentralStateUpdateBlock stateUpdateBlock;

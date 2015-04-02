@@ -120,6 +120,13 @@
     }
 }
 
+- (BOOL)isAvailable
+{
+    @synchronized(self) {
+        return (YBleStatePoweredOn == self.state);
+    }
+}
+
 #pragma CBCentralManagerDelegate
 - (void)centralManagerDidUpdateState:(CBCentralManager *)central
 {
