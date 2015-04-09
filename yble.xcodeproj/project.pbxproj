@@ -18,6 +18,7 @@
 		43008BAA1AB991900098854C /* libyble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43008B5F1AB936B60098854C /* libyble.a */; };
 		43008BAF1AB99F090098854C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008BAE1AB99F090098854C /* MainViewController.m */; };
 		43008BB21AB9A5380098854C /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43008BB11AB9A5380098854C /* ConnectViewController.m */; };
+		43364E2F1AD6EEFB00156326 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43008BA31AB94B7E0098854C /* CoreBluetooth.framework */; };
 		43B83D221AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D211AB9F1FF00AF9B6A /* NSMutableArray+FifoQueue.m */; };
 		43B83D2A1ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D291ABA899000AF9B6A /* NSMutableDictionary+FifoQueue.m */; };
 		43B83D351ABA8DF700AF9B6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B83D341ABA8DF700AF9B6A /* AppDelegate.m */; };
@@ -96,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43364E2F1AD6EEFB00156326 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +608,7 @@
 				43B83D4E1ABA8DF700AF9B6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
